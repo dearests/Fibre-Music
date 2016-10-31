@@ -1,0 +1,166 @@
+/* from big tablets to 1200px (width smaller than the 1140px row ) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+/* samll tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 20px; }
+    
+    .hero-text-box{
+        width: 100%;
+        height: 60px;
+        padding: 0 2%;
+        top: 30%;
+        margin-bottom: 0;
+    }
+    
+    
+    #prev {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+       
+    }
+
+    #next {
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right:0;
+            margin: auto 10px;
+            cursor: pointer;
+    }
+
+    
+    .long-copy { width: 80%; }
+    
+    .contact-form { width: 80%; }
+    
+    
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+}
+
+
+
+/* small phones to small tablets: from 481px - 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 20px; }
+   /* section { padding: 30px 0; }  */
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+
+    }
+    .map-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    .right { 
+        width: 100%; 
+        margin: 0 auto;
+    }
+    
+    .right p { width: 40%; }
+    
+    .right h4 { width: 40%; }
+    
+    .left {
+        margin-left: 20px;
+    }
+
+    .article1 {
+        margin-left: 15px;
+        width: 90%;
+    }
+    .article p {
+        margin-left: 15px;
+    }
+
+    #pager { display: none; }
+}
+
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width: 480px) {
+ /*   section { padding: 25px 0; }     */
+    .contact-form { width: 100%; }
+    #pager { display: none; }
+    .logo {
+        top: 5%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .head {
+        height: 250px;
+    }
+    
+    .hero-text-box {
+        top: 20%;
+        height: 60px;
+    }
+    
+    .hero-text-box h1 { 
+        font-size: 130%;
+         
+    }
+    
+    .hero-text-box h2 { 
+        font-size: 120%;
+         
+    }
+    
+    h2, h3 {
+        font-size: 120%;
+    }
+    
+    
+    nav {
+        background-color: rgba(85, 85, 85, 0.8);
+    }
+}
